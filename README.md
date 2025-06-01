@@ -20,18 +20,15 @@
 
 2. Установите зависимости (если они есть):
 
-   - Для Python:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - Для других языков смотрите инструкции в соответствующем разделе.
+  - Visual Studio
+  - Visual Studio C++
 
 ## Использование
 
 ### Консольная версия
 
 ```bash
-python main.py --algorithm leibniz --precision 10000
+> picalc.exe
 ```
 
 **Параметры:**
@@ -58,14 +55,6 @@ python gui.py
 
 - **Метод Монте-Карло:**  
   Случайные точки в квадрате, доля попавших в четверть круга оценивает π.
-
-## Вклад в проект
-
-1. Сделайте fork репозитория
-2. Создайте ветку для вашей фичи/исправления: `git checkout -b feature/my-feature`
-3. Сделайте коммит: `git commit -am 'Add new feature'`
-4. Отправьте изменения: `git push origin feature/my-feature`
-5. Создайте Pull Request
 
 ## Лицензия
 
